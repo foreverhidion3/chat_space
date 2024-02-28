@@ -1,0 +1,38 @@
+/* .page_body {
+  background-color: yellow;
+} */
+.dancing_monkey_container {
+  /* background-color: blue; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* This ensures the monkey does not interfere with clicks on other elements */
+  /* Now that you can interact with the monkey...he needs pointer events */
+  pointer-events: none;
+  /* Set a negative z-index to place it behind other content */ 
+  z-index: 1; 
+}
+#dancing_monkey_img {
+  height: 8%;
+  width: 8%;
+  /* height: 40px;
+  width: 40px; */
+  /* background-color: blueviolet; */
+  pointer-events: auto;
+  cursor: pointer;
+  z-index: 2;
+  /* transform: translate(0, 0); */
+}
+.injured_monkey {
+  /* make him red */
+  filter: brightness(30%) saturate(300%) hue-rotate(180deg);
+}
+.banana_img {
+  height: 4%;
+  width: 4%;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}

@@ -1,0 +1,26 @@
+.banana_img_3_container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    pointer-events: auto;
+    cursor: pointer;
+    margin-top: 2%;
+    /* margin-left: 93%; */
+    /* background-color: blueviolet; */
+    height: 20%;
+    width: 20%;
+}
+#banana_img_3 {
+    height: 60%;
+    width: 60%;
+    /* background-color: blue; */
+    transition: transform 0.2s ease; /* Add a transition for a smooth effect */
+}
+.banana_img_3_container:hover #banana_img_3 {
+    transform: scale(1.2); /* Increase the size of the image on hover */
+}
+
+
+
+
+

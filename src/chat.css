@@ -1,0 +1,34 @@
+.main {
+    background-image: url("./images/stars_retreat.gif") ;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* justify-content: center;  */
+}
+.input {
+    margin-top: 50%;
+    background-color: black;
+    border-color: yellow;
+    caret-color: yellow;
+}
+.input:focus {
+    /* background-color: yellow;  */
+    outline: yellow;
+    color: yellow; 
+  }
+.send {
+    background-color: black;
+    border-color: yellow;
+    color: yellow; 
+}
+.text_return {
+    margin-top: 10%;
+    background-color: black;
+    width: 80%;
+    align-items: center; 
+    
+
+}

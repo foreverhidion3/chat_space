@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import './chat.css'
 import Dancing from './Dancing_Monkey/Dancing.js';
 
-const socket = io('http://localhost:3001'); // Update the URL to match your server URL
+const socket = io('https://server-chat-space.onrender.com'); // Update the URL to match your server URL
 
 function Chat() {
   const [messages, setMessages] = useState([]);
@@ -12,7 +12,7 @@ function Chat() {
 
   useEffect(() => {
     // Establish Socket.IO connection when the component mounts
-    const socket = io('http://localhost:3001');
+    const socket = io('https://server-chat-space.onrender.com');
 
     const randomColor = getRandomLightColor();
     setUserColor(randomColor);

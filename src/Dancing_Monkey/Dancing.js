@@ -29,7 +29,7 @@ const Dancing = () => {
 
   //set states
   const [monkey, setMonkey] = useState({ x: 100, y: 20 });
-  const monkeySpeed = .4
+  const monkeySpeed = .3
   const [driftDirection, setDriftDirection] = useState({ x: 1, y: 1 });
   const [xDirection, setXDirection] = useState(1);
   const [yDirection, setYDirection] = useState(1);
